@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PT. Cililitan Andi Jaya - Jasa rental mobil, lahan parkir motor, dan kuliner nasi ayam katsu">
+    <title>PT. Cililitan Andi Jaya</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #1a73e8; color: white; padding: 1rem; text-align: center; }
+        nav { display: flex; justify-content: center; background: #0f4ab0; }
+        nav a { color: white; padding: 0.8rem 1.2rem; text-decoration: none; }
+        nav a:hover { background: #083b8a; }
+        section { padding: 2rem; max-width: 1000px; margin: auto; }
+        h2 { color: #1a73e8; }
+        footer { background: #1a73e8; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+        .form-group { margin-bottom: 1rem; }
+        input, textarea { width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 5px; }
+        button { background: #1a73e8; color: white; padding: 0.6rem 1.2rem; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0f4ab0; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .gallery div { background: #eee; padding: 50px 0; text-align: center; border-radius: 8px; }
+        .testimonial { background: #f8f8f8; padding: 1rem; margin-bottom: 1rem; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PT. Cililitan Andi Jaya</h1>
+    <p>Solusi Transportasi, Parkir, dan Kuliner dalam Satu Tempat</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#menu">Menu</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="home">
+    <h2>Selamat Datang</h2>
+    <p>PT. Cililitan Andi Jaya menyediakan jasa rental mobil, lahan parkir motor, dan penjualan makanan kebutuhan pokok serta kuliner nasi ayam katsu yang lezat.</p>
+</section>
+
+<section id="layanan">
+    <h2>Layanan Kami</h2>
+    <ul>
+        <li>🚗 Rental mobil harian & bulanan</li>
+        <li>🏍️ Lahan parkir motor aman & nyaman</li>
+        <li>🍛 Penjualan makanan pokok & nasi ayam katsu</li>
+    </ul>
+</section>
+
+<section id="menu">
+    <h2>Menu Makanan</h2>
+    <ul>
+        <li>Nasi Ayam Katsu</li>
+        <li>Nasi Ayam Katsu + Salad</li>
+        <li>Makanan kebutuhan pokok</li>
+    </ul>
+</section>
+
+<section id="galeri">
+    <h2>Galeri</h2>
+    <div class="gallery">
+        <div>Foto Mobil Rental</div>
+        <div>Foto Lahan Parkir</div>
+        <div>Foto Nasi Ayam Katsu</div>
+    </div>
+</section>
+
+<section id="testimoni">
+    <h2>Testimoni Pelanggan</h2>
+    <div class="testimonial">"Mobil bersih dan nyaman, pelayanan cepat!" – Andi</div>
+    <div class="testimonial">"Parkir motor aman, dekat jalan utama." – Budi</div>
+    <div class="testimonial">"Nasi ayam katsunya enak sekali!" – Siti</div>
+</section>
+
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>📍 Jl. Raya Dewi Sartika No.15A, Cililitan, Kramatjati, Jakarta Timur</p>
+    <p>📞 WhatsApp: <a href="https://wa.me/6281280475666">081280475666</a></p>
+    <p>📧 Email: <a href="mailto:ardicuj@gmail.com">ardicuj@gmail.com</a></p>
+
+    <h3>Form Pemesanan</h3>
+    <form action="mailto:ardicuj@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+            <label>Nama</label>
+            <input type="text" name="nama" required>
+        </div>
+        <div class="form-group">
+            <label>No. Telepon</label>
+            <input type="text" name="telepon" required>
+        </div>
+        <div class="form-group">
+            <label>Pesanan / Pertanyaan</label>
+            <textarea name="pesan" rows="4" required></textarea>
+        </div>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 PT. Cililitan Andi Jaya. All rights reserved.
+</footer>
+
+</body>
+</html>
